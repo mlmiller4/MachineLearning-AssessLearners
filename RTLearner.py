@@ -1,16 +1,12 @@
 import numpy as np
 import random as rd
 
-
 class RTLearner(object):
 
     def __init__(self, leaf_size=1, verbose=False):
         # pass # move along, these aren't the drones you're looking for
         self.tree = None
         self.leaf_size = leaf_size
-
-    def author(self):
-        return 'mmiller319' # replace tb34 with your Georgia Tech username
 
     def addEvidence(self, dataX, dataY):
         """
@@ -96,7 +92,5 @@ class RTLearner(object):
         return results
 
 
-
-
 if __name__ == "__main__":
-    print "the secret clue is 'zzyzx'"
+    print ""
