@@ -19,9 +19,6 @@ class InsaneLearner(object):
             self.learners.append(bl.BagLearner(lrl.LinRegLearner, kwargs={}, bags=bagNum))
 
 
-    def author(self):
-        return 'mmiller319'  # replace tb34 with your Georgia Tech username
-
     def addEvidence(self, dataX, dataY):
         """
          @summary: Add training data to learner
@@ -46,4 +43,4 @@ class InsaneLearner(object):
 
 
 if __name__=="__main__":
-    print "the secret clue is 'zzyzx'"
+    print ""
