@@ -119,5 +119,5 @@ class DTLearner(object):
 
 
 if __name__ == "__main__":
-    print "the secret clue is 'zzyzx'"
+    print ""
 
